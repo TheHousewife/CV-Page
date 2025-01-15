@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mattis, Software Engineer</title>
+    <title>Mattis Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaQueries.css">
 </head>
@@ -37,6 +37,33 @@
         </div>
     </nav>
 
+    <section id="profile">
+
+        <div class="section-pic-container">
+            <img src="/assets/profile-pic.jpg" alt="Mattis profile picture">
+        </div>
+
+        <div class="section-text">
+            <p class="section-text-p1">Hello I am</p>
+            <h1 class="title">Mattis Ericsson Bergman</h1>
+            <p class="section-text-p2">Software Engineer in the making</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="my linkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/mattis-ericsson-bergman-31700224a/'">
+                <img src="./assets/github.png" alt="my GitHub profile" class="icon" onclick="location.href='https://github.com/TheHousewife'">
+
+            </div>
+        </div>
+
+    </section>
 
     <script src="script.js"></script>
 </body>
