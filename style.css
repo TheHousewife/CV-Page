@@ -7,6 +7,7 @@
 
 body{
     font-family: Poppins, sans-serif;
+    background: #ffd1ff;
 }
 
 html{
@@ -44,10 +45,10 @@ a{
 }
 
 a:hover{
-    color: gray;
+    color: #854785;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: #cbcbcb;
+    text-decoration-color: #9d6999;
 }
 
 .logo{
@@ -97,11 +98,18 @@ a:hover{
     text-align: center;
     font-size: 1.5rem;
     color: black;
-    background: #a080a0;
+    background: #ecb4ec;
     border: 0.1rem solid black;
     border-bottom: none;
     text-decoration: none;
     transition: all 300ms ease-in-out;
+}
+
+.menu-links a:hover{
+    color: #854785;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #9d6999;
 }
 
 .menu-links li{
@@ -221,7 +229,7 @@ a:hover{
 }
 
 .btn-color-1, .btn-color-2{
-    border: #535353 0.1rem solid;
+    border: #4f3856 0.1rem solid;
 }
 
 .btn-color-1:hover, .btn-color-2:hover{
@@ -290,9 +298,9 @@ a:hover{
     flex: 1;
     background: #FFF;
     border-radius: 2rem;
-    border: #535353 0.1rem solid;
-    border-color: #a3a3a3;
+    border: #4f3856 0.1rem solid;
     text-align: center;
+    background: #ecb4ec;
 }
 
 .section-container{
@@ -332,6 +340,10 @@ a:hover{
     justify-content: space-around;
 }
 
+.fixed-article-container{
+    background: #ffd1ff;
+}
+
 article{
     display: flex;
     width: 10rem;
@@ -365,7 +377,7 @@ article .icon{
 
 .project-btn{
     color: black;
-    border-color: rgb(163, 163, 163);
+    border-color: #4f3856;
 }
 
 #contact{
@@ -379,11 +391,10 @@ article .icon{
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    border: #4f3856 0.1rem solid;
     margin: 2rem auto;
     padding: 0.5rem;
+    background: #ecb4ec;
 
 }
 
