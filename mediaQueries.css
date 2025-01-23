@@ -105,6 +105,7 @@ footer nav {
 }
 .section__pic-container {
     width: auto;
+    margin: auto;
     height: 46vw;
     justify-content: center;
 }
