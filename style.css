@@ -303,6 +303,10 @@ a:hover{
     background: #ecb4ec;
 }
 
+.details-container-experience{
+    margin: 0 1rem;
+}
+
 .section-container{
     gap: 4rem;
     height: 80%;
